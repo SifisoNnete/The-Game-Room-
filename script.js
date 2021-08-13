@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', () => {
 
         //card options 
         const cardArray = [{
-                name: 'Ainz',
-                img: 'Images/Ainz.png'
+                name: 'Blue',
+                img: 'Images/Blue.jpg'
             },
             {
-                name: 'Ainz',
-                img: 'Images/Ainz.png'
+                name: 'Blue',
+                img: 'Images/Blue.jpg'
             },
             {
-                name: 'Albedo',
-                img: 'Images/Albedo.jpg'
+                name: 'Green',
+                img: 'Images/Green.png'
             },
             {
-                name: 'Albedo',
-                img: 'Images/Albedo.jpg'
+                name: 'Green',
+                img: 'Images/Green.png'
             },
             {
-                name: 'Darling',
-                img: 'Images/Darling.jpg'
+                name: 'Pink',
+                img: 'Images/Pink.jpg'
             },
             {
-                name: 'Darling',
-                img: 'Images/Darling.jpg'
+                name: 'Pink',
+                img: 'Images/Pink.jpg'
             },
             {
-                name: 'Eren',
-                img: 'Images/Eren.png'
+                name: 'Purple',
+                img: 'Images/Purple.jpg'
             },
             {
-                name: 'Eren',
-                img: 'Images/Eren.png'
+                name: 'Purple',
+                img: 'Images/Purple.jpg'
             },
             {
-                name: 'Goku',
-                img: 'Images/Goku.jpg'
+                name: 'Red',
+                img: 'Images/Red.jpg'
             },
             {
-                name: 'Goku',
-                img: 'Images/Goku.jpg'
+                name: 'Red',
+                img: 'Images/Red.jpg'
             },
             {
-                name: 'Star',
-                img: 'Images/Star.png'
+                name: 'Yellow',
+                img: 'Images/Yellow.jpg'
             },
             {
-                name: 'White',
-                img: 'Images/White.png'
+                name: 'Yellow',
+                img: 'Images/Yellow.jpg'
             }
         ]
     })
@@ -61,7 +61,7 @@ const grid = document.querySelector('.grid')
 function createBoard() {
     for (let i = 0; i < cardArray.lenth; i++) {
         var card = document.createElement('img')
-        card.setAttribute('src', 'Images/White.png')
+        card.setAttribute('src', 'Images/Blank.png')
         card.setAttribute('data-id', i)
             //card.addEventListener('click', flipcard)
         grid.appendChild(card)
