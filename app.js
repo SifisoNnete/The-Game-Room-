@@ -61,7 +61,7 @@ const grid = document.querySelector('.grid')
 function createBoard() {
     for (let i = 0; i < cardArray.lenth; i++) {
         var card = document.createElement('img')
-        card.setAttribute('src', 'Images/Blank.png')
+        card.setAttribute('src', 'Images/Blank.jpg')
         card.setAttribute('data-id', i)
             //card.addEventListener('click', flipcard)
         grid.appendChild(card)
